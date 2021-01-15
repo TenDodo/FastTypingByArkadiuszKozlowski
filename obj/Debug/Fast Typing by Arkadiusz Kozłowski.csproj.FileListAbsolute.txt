@@ -1,0 +1,7 @@
+C:\Users\1arka\source\repos\Fast Typing by Arkadiusz Kozłowski\Fast Typing by Arkadiusz Kozłowski\bin\Debug\Fast Typing by Arkadiusz Kozłowski.exe.config
+C:\Users\1arka\source\repos\Fast Typing by Arkadiusz Kozłowski\Fast Typing by Arkadiusz Kozłowski\bin\Debug\Fast Typing by Arkadiusz Kozłowski.exe
+C:\Users\1arka\source\repos\Fast Typing by Arkadiusz Kozłowski\Fast Typing by Arkadiusz Kozłowski\bin\Debug\Fast Typing by Arkadiusz Kozłowski.pdb
+C:\Users\1arka\source\repos\Fast Typing by Arkadiusz Kozłowski\Fast Typing by Arkadiusz Kozłowski\obj\Debug\Fast Typing by Arkadiusz Kozłowski.csprojAssemblyReference.cache
+C:\Users\1arka\source\repos\Fast Typing by Arkadiusz Kozłowski\Fast Typing by Arkadiusz Kozłowski\obj\Debug\Fast Typing by Arkadiusz Kozłowski.csproj.CoreCompileInputs.cache
+C:\Users\1arka\source\repos\Fast Typing by Arkadiusz Kozłowski\Fast Typing by Arkadiusz Kozłowski\obj\Debug\Fast Typing by Arkadiusz Kozłowski.exe
+C:\Users\1arka\source\repos\Fast Typing by Arkadiusz Kozłowski\Fast Typing by Arkadiusz Kozłowski\obj\Debug\Fast Typing by Arkadiusz Kozłowski.pdb
