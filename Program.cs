@@ -391,6 +391,7 @@ namespace Fast_Typing_by_Arkadiusz_Kozłowski
                 using (StreamReader sr = new StreamReader(open.FileName))
                 {
                     text = sr.ReadToEnd();
+                    text = text.Replace("\n", " ");
                     sr.Close();
                 }
             }
@@ -410,8 +411,16 @@ namespace Fast_Typing_by_Arkadiusz_Kozłowski
             {
             missLoop:
                 Console.Clear();
-
-                Console.Write(currentChars[i]);
+                switch (currentChars[i] == ' ')
+                {
+                    case true:
+                        Console.Write(@"[space]");
+                        break;
+                    case false:
+                        Console.Write(currentChars[i]);
+                        break;
+                }
+                
                 if (Console.ReadKey().KeyChar != currentChars[i])
                 {
                     miss += 1;
@@ -478,6 +487,7 @@ namespace Fast_Typing_by_Arkadiusz_Kozłowski
                 using (StreamReader sr = new StreamReader(open.FileName))
                 {
                     text = sr.ReadToEnd();
+                    text = text.Replace("\n", " ");
                     sr.Close();
                 }
             }
@@ -504,9 +514,22 @@ namespace Fast_Typing_by_Arkadiusz_Kozłowski
                     Console.Write(" ");
                     if (i == j)
                     {
-                        Console.ForegroundColor = ConsoleColor.Yellow;
-                        Console.Write(currentChars[j]);
-                        Console.ForegroundColor = ConsoleColor.Cyan;
+                        switch (currentChars[j] == ' ')
+                        {
+                            case true:
+                                Console.ForegroundColor = ConsoleColor.Yellow;
+                                Console.BackgroundColor = ConsoleColor.Yellow;
+                                Console.Write(currentChars[j]);
+                                Console.ForegroundColor = ConsoleColor.Cyan;
+                                Console.BackgroundColor = ConsoleColor.Black;
+                                break;
+                            case false:
+                                Console.ForegroundColor = ConsoleColor.Yellow;
+                                Console.Write(currentChars[j]);
+                                Console.ForegroundColor = ConsoleColor.Cyan;
+                                break;
+                        }
+                        
                     }
                     else
                     {
